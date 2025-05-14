@@ -1,0 +1,25 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="index.css">
+        <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@700&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <div class="scoreBoard">
+            <div class="scorePanel">
+                <div class="label">HOME</div>
+                <div class="homeScore" id="homeTotalScore">0</div>
+                <div class="scoreButtonSection">
+                    <button class="scoreButton" onclick="homePlusOne()">+1</button><button class="scoreButton" onclick="homePlusTwo()">+2</button><button class="scoreButton" onclick="homePlusThree()">+3</button>
+                </div>
+            </div>
+            <div class="scorePanel">
+                <div class="label">AWAY</div>
+                <div class="guestScore" id="guestTotalScore">0</div>
+                <div class="scoreButtonSection">
+                    <button class="scoreButton" onclick="guestPlusOne()">+1</button><button class="scoreButton" onclick="guestPlusTwo()">+2</button><button class="scoreButton" onclick="guestPlusThree()">+3</button>
+                </div>
+            </div>
+        </div>
+        <script src="index.js"></script>
+    </body>
+</html>
